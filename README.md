@@ -15,21 +15,21 @@ gh repo create gatekeep-legal --public --source=. --remote=origin --push
 Then enable Pages:
 
 ```bash
-gh api -X POST /repos/jes1ah/gatekeep-legal/pages -f 'source[branch]=main' -f 'source[path]=/' -f 'build_type=legacy'
+gh api -X POST /repos/thegalateacompany-hash/gatekeep-legal/pages -f 'source[branch]=main' -f 'source[path]=/' -f 'build_type=legacy'
 ```
 
-(Or via the web UI: github.com/jes1ah/gatekeep-legal → Settings → Pages → Source = Deploy from a branch → Branch = main, root → Save.)
+(Or via the web UI: github.com/thegalateacompany-hash/gatekeep-legal → Settings → Pages → Source = Deploy from a branch → Branch = main, root → Save.)
 
 Wait ~1 minute for the first build. Your URLs will be:
 
-- Index: `https://jes1ah.github.io/gatekeep-legal/`
-- Privacy: `https://jes1ah.github.io/gatekeep-legal/privacy.html`
-- Terms: `https://jes1ah.github.io/gatekeep-legal/terms.html`
+- Index: `https://thegalateacompany-hash.github.io/gatekeep-legal/`
+- Privacy: `https://thegalateacompany-hash.github.io/gatekeep-legal/privacy.html`
+- Terms: `https://thegalateacompany-hash.github.io/gatekeep-legal/terms.html`
 
 ## Use in App Store Connect
 
-- **Privacy Policy URL**: `https://jes1ah.github.io/gatekeep-legal/privacy.html`
-- **Terms of Use / EULA URL** (optional but recommended): `https://jes1ah.github.io/gatekeep-legal/terms.html`
+- **Privacy Policy URL**: `https://thegalateacompany-hash.github.io/gatekeep-legal/privacy.html`
+- **Terms of Use / EULA URL** (optional but recommended): `https://thegalateacompany-hash.github.io/gatekeep-legal/terms.html`
 
 ## Use in app
 
